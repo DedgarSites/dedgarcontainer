@@ -6,4 +6,5 @@ EXPOSE 8443
 
 USER 1001
 
-CMD ["/usr/local/bin/dedgar"]
+CMD ["/usr/local/bin/start.sh"]
+#CMD ["/usr/local/bin/dedgar"]
