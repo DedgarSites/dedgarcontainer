@@ -1,6 +1,6 @@
 FROM openshift/base-centos7 
 
-COPY . /usr/local/bin
+COPY container /usr/local/bin
 
 EXPOSE 8443
 
